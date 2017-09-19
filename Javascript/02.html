@@ -2,28 +2,24 @@
   <head>
     <meta charset="utf-8">
     <style>
-    li{
-      color:blue;
-    }
-    ul li{
-      font-size: 40px;
-    }
     .em{
       text-decoration: underline;
     }
     </style>
   </head>
   <body>
-    <ol>
-      <li class="em">html</li>
+    <ol id="target">
+      <li>html</li>
       <li>css</li>
       <li>javascript</li>
     </ol>
     <ul>
       <li>조서</li>
-      <li class="em">정민</li>
+      <li>정민</li>
       <li>형식</li>
       <li>준열</li>
     </ul>
+    <input type="button" value="강조test"
+    onclick="document.getElementById('target').className='em'"/>
   </body>
 </html>
