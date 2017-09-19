@@ -18,13 +18,23 @@
 	</nav>
 
 	<div id="control">
-		<input type="button" value="white" onclick="document.getElementById('target').className='white'"/>
-		<input type="button" value="black" onclick="document.getElementById('target').className='black'"/>
+		<input type="button" value="white" id="whilte_btn"/>
+		<input type="button" value="black" id="black_btn"/>
 	</div>
 
 	<article>
 		<h2>변수와 상수</h2>
 		변수는 바뀔 수 있는 값이고, 상수는 바뀌지 않는 값입니다.
 	</article>
+	<script>
+	wbtn=document.getElementById('whilte_btn');
+	wbtn.addEventListener('click', function(){
+		document.getElementById('target').className='white';
+	})
+	bbtn=document.getElementById('black_btn');
+	bbtn.addEventListener('click', function(){
+		document.getElementById('target').className='black';
+	})
+	</script>
 </body>
 </html>
