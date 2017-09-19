@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="C:\Users\westbro\Documents\GitHub\Web-Application\project/style.css">
 	<title>실습</title>
 </head>
-<body>
+<body id="target">
 	<header>
 		<h1><a href="C:\Users\westbro\Documents\GitHub\Web-Application\project">JavaScript</a></h1>
 		<h2>JavaScript</h2>
@@ -18,6 +18,9 @@
 			<li><a href="C:\Users\westbro\Documents\GitHub\Web-Application\project/page_op.html">연산자</a></li>
 		</ol>
 	</nav>
-
+	<div id="control">
+		<input type="button" value="white" onclick="document.getElementById('target').className='white'"/>
+		<input type="button" value="black" onclick="document.getElementById('target').className='black'"/>
+	</div>
 </body>
 </html>
