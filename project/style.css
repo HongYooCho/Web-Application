@@ -1,0 +1,14 @@
+header{
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+nav{
+  float:left;
+  list-style: none;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+article{
+  float:left;
+  padding:20px;
+}
